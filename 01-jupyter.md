@@ -46,8 +46,44 @@ Notebook全体で1つのPythonプロセスが立ち上がっている感じ。No
 
 ![cell running order](img/jupyter02.png)
 
+結果出力の仕方
+------------------
+グラフの描画結果などをビジュアルとして出力するための設定をする。以下の設定はおまじないだと思って先頭に書く。
 
+```python
+%matplotlib inline
+import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.style.use('ggplot')
+```
 
+練習
+----
+以下の処理をするNotebookを作成してみる。
+
+```python
+%matplotlib inline
+import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.style.use('ggplot')
+```
+
+```python
+# -3から3まで0.1ずつ増加させるx値
+x = np.arange(-3, 3, 0.1)
+```
+
+```python
+# xの値をsin関数に渡した結果y
+y = np.sin(x) 
+```
+
+```python
+# グラフを描画
+plt.plot(x,y)
+```
 
 
 
