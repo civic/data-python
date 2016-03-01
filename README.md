@@ -27,4 +27,5 @@ $ vagrant up
 - [01-jupyter.md](01-jupyter.md) jupyter-notebook
 - [02-numpy.md](02-numpy.md) numpy復習
 - [03-pandas.md](03-pandas.md) pandas
+- [04-AtmarkIT-DataScientist.md](04-AtmarkIT-DataScientist.md) @IT追っかけ
 
