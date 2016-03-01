@@ -54,6 +54,7 @@ Notebook全体で1つのPythonプロセスが立ち上がっている感じ。No
 %matplotlib inline
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.style.use('ggplot')
 ```
@@ -66,6 +67,7 @@ matplotlib.style.use('ggplot')
 %matplotlib inline
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.style.use('ggplot')
 ```
